@@ -1,7 +1,12 @@
-let action1 =() => {
+export  let action1 =() => {
     return {
         type:'INCREMENT',
-        value:2
+        value:1
     }
 }
-export default action1
+export let action2 =() => {
+    return {
+        type:'DECREMENT',
+        value:1
+    }
+}
